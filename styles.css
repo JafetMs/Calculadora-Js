@@ -1,0 +1,102 @@
+/* Reset */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{ 
+    margin:0;
+    padding:0;
+    font:inherit;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #e4ecfb;
+}
+
+img,picture,svg,video{
+    display: block;
+}
+html{
+    
+    font-size: 62.5%;  /* 1 rem = 10 px */
+    
+}
+
+
+.container{
+    
+    height: 650px;
+    width: 400px;
+    background-color: transparent;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.998);
+    color:white
+    
+}
+
+
+/* Display */
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 30%;
+    background-color: #161a20;
+    text-align: end;
+    
+    
+}
+
+ .resultado{
+    
+    font-size: 7rem;
+    padding-right:10px;
+}
+.operation{
+    font-size: 2.5rem;
+    background-color: #20252e;
+    color:#cbe1ff;
+    border:none;
+    
+    text-align: end;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* botons  */
+.buttons{
+    height: 70%;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    border-radius: 25%;
+}
+
+.buttons-cuatro{
+    display: grid;
+    
+    height: 85%;
+    grid-template-columns: repeat(4,25%);  
+    font-size: 30px;
+}
+.buttons-tres{
+    display: grid;
+    
+    height: 15%;
+    grid-template-columns: 50% 25% 25%;
+    font-size: 30px;
+}
+.button{
+    background-color: #242933;
+    border: #161a20 solid 2px;
+    
+}
+.blue{
+    background-color: #0060e5;
+}
