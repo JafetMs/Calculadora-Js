@@ -26,8 +26,8 @@ html{
 
 .container{
     
-    height: 650px;
-    width: 400px;
+    height: 675px;
+    width: 450px;
     background-color: transparent;
     
     position: absolute;
@@ -57,7 +57,7 @@ html{
     font-size: 7rem;
     padding-right:10px;
 }
-.operation{
+.operacion{
     font-size: 2.5rem;
     background-color: #20252e;
     color:#cbe1ff;
@@ -92,11 +92,33 @@ html{
     grid-template-columns: 50% 25% 25%;
     font-size: 30px;
 }
+button{
+    background-color: #242933;
+    border: #161a20 solid 2px;
+    color:white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #1c2027;
+}
+
 .button{
     background-color: #242933;
     border: #161a20 solid 2px;
-    
+    color:white;
 }
+
+.button:hover{
+    cursor: pointer;
+    background-color: #1c2027;
+}
+
+
 .blue{
     background-color: #0060e5;
+    
+}
+.blue:hover{
+    background-color:#0244a0; ;
 }
